@@ -3,7 +3,7 @@
   .reg
     &__header
       transform: scale(1.2)
-      transform-origin: top
+      // transform-origin: top
     &__gift1, &__gift2
       transform: scale(1.2)
       transform-origin: bottom
@@ -37,6 +37,12 @@
       transform-origin: top
     &__sam
       height: 820px
+    &__gift1
+      top: 7%
+@media screen and (max-width: 1920px)
+  .reg
+    &__gift1
+      top: 18%
 @media screen and (max-width: 1920px) and (max-height: 1080px)
   .reg
     &__header
@@ -66,18 +72,46 @@
       top: 10%
     &__gift2
       top: 20%
+@media screen and (max-width: 1830px) and (max-height: 920px)
+  .reg
+    &__gift1
+      transform: scale(0.9)
 @media screen and (max-width: 1920px) and (max-height: 950px)
 @media screen and (max-width: 1707px) and (max-height: 1280px)
 @media screen and (max-width: 1707px) and (max-height: 901px)
-@media screen and (max-width: 1707px) and (max-height: 861px)
-@media screen and (max-width: 1707px) and (max-height: 841px)
-@media screen and (max-width: 1707px) and (max-height: 801px)
+  .reg
+    &__header,
+    &__gift1,
+    &__gift2,
+    &__gift3
+      transform: scale(0.8)
+@media screen and (max-width: 1707px) and (max-height: 871px)
+  .reg
+    &__sam
+      height: 720px
+@media screen and (max-width: 1707px) and (max-height: 821px)
+  .reg
+    &__header,
+    &__gift1,
+    &__gift2,
+    &__gift3
+      transform: scale(0.7)
+@media screen and (max-width: 1707px) and (max-height: 791px)
+  .reg
+    &__sam
+      height: 670px
 @media screen and (max-width: 1707px) and (max-height: 770px)
 @media screen and (max-width: 1680px) and (max-height: 1050px)
   .reg
     &__sam
       height: 750px
-@media screen and (max-width: 1680px) and (max-height: 950px)
+@media screen and (max-width: 1680px) and (max-height: 990px)
+  .reg
+    &__header,
+    &__gift1,
+    &__gift2,
+    &__gift3
+      transform: scale(0.8)
 @media screen and (max-width: 1680px) and (max-height: 900px)
   .reg
     &__sam
@@ -96,7 +130,13 @@
       transform: scale(0.8)
     &__sam
       height: 700px
-@media screen and (max-width: 1600px) and (max-height: 820px)
+@media screen and (max-width: 1600px) and (max-height: 780px)
+  .reg
+    &__header,
+    &__gift1,
+    &__gift2,
+    &__gift3
+      transform: scale(0.7)
 @media screen and (max-width: 1536px) and (max-height: 864px)
   .reg
     &__header
@@ -128,14 +168,15 @@
     &__gift3
       transform: scale(0.8)
 @media screen and (max-width: 1512px) and (max-height: 823px)
-@media screen and (max-width: 1512px) and (max-height: 790px)
-@media screen and (max-width: 1512px) and (max-height: 720px)
+@media screen and (max-width: 1512px) and (max-height: 793px)
   .reg
     &__header,
     &__gift1,
     &__gift2,
     &__gift3
       transform: scale(0.7)
+@media screen and (max-width: 1512px) and (max-height: 720px)
+  .reg
     &__sam
       height: 600px
 @media screen and (max-width: 1512px) and (max-height: 710px)
@@ -195,9 +236,7 @@
       top: 15px
     &__fc
       font-size: 169px
-      width: 420px
     &__text
-      width: 420px
       font-size: 49px
     &__sam
       height: 630px
@@ -249,23 +288,122 @@
     &__sam
       height: 570px
 @media screen and (max-width: 1380px) and (max-height: 640px)
-@media screen and (max-width: 1366px) and (max-height: 1024px)
-@media screen and (max-width: 1366px) and (max-height: 950px)
-@media screen and (max-width: 1366px) and (max-height: 920px)
-@media screen and (max-width: 1366px) and (max-height: 830px)
-@media screen and (max-width: 1366px) and (max-height: 810px)
-@media screen and (max-width: 1366px) and (max-height: 740px)
-@media screen and (max-width: 1366px) and (max-height: 730px)
-@media screen and (max-width: 1366px) and (max-height: 690px)
-@media screen and (max-width: 1366px) and (max-height: 670px)
+@media screen and (max-width: 1368px) and (max-height: 1024px)
+@media screen and (max-width: 1368px) and (max-height: 950px)
+@media screen and (max-width: 1368px) and (max-height: 920px)
+@media screen and (max-width: 1368px) and (max-height: 830px)
+@media screen and (max-width: 1368px) and (max-height: 810px)
+@media screen and (max-width: 1368px) and (max-height: 740px)
+@media screen and (max-width: 1368px) and (max-height: 730px)
+@media screen and (max-width: 1368px) and (max-height: 690px)
+@media screen and (max-width: 1368px) and (max-height: 640px)
+  .reg
+    &__sam
+      height: 550px
 @media screen and (max-width: 1280px)
+  .reg
+    &::before
+      height: 50%
+    &::after
+      height: 129px
+    &__header,
+    &__gift1,
+    &__gift2,
+    &__gift3
+      transform: scale(1)
+    &__logo
+      width: 262px
+      height: 40px
+    &__gift1
+      width: 329px
+      height: 311px
+      top: 14%
+      right: -82px
+    &__gift2
+      width: 222px
+      height: 165px
+      left: -10px
+      top: 28%
+    &__gift3
+      width: 238px
+      height: 205px
+      bottom: -36px
+      left: -23px
+    &__header
+      top: 15px
+    &__fc
+      margin-top: 10px
+      font-size: 134px
+    &__text
+      top: -27px
+      font-size: 39px
+    &__sam
+      height: 514px
+      aspect-ratio: 1122/514
+    &__footer
+      font-size: 7.35px
+      bottom: 5px
+///////////////////////////////////////////////////////////////////////////////////
 @media screen and (max-width: 1280px) and (max-height: 1706px)
+  .reg
+    &__sam
+      height: 970px
+    &__header
+      transform: scale(1.8)
+    &__gift1
+      transform: scale(1.8)
+      top: 33%
+      right: 0
+    &__gift2
+      transform: scale(1.8)
+      top: 48%
 @media screen and (max-width: 1280px) and (max-height: 860px)
-@media screen and (max-width: 1280px) and (max-height: 750px)
-@media screen and (max-width: 1280px) and (max-height: 710px)
-@media screen and (max-width: 1280px) and (max-height: 670px)
-@media screen and (max-width: 1280px) and (max-height: 610px)
-@media screen and (max-width: 1280px) and (max-height: 600px)
+  .reg
+    &__header,
+    &__gift1,
+    &__gift2
+      transform: scale(1.1)
+    &__gift1
+      top: 14%
+      right: -82px
+    &__gift2
+      top: 28%
+    &__sam
+      height: 700px
+@media screen and (max-width: 1280px) and (max-height: 800px)
+  .reg
+    &__sam
+      height: 650px
+@media screen and (max-width: 1280px) and (max-height: 780px)
+  .reg
+    &__header,
+    &__gift1,
+    &__gift2
+      transform: scale(1)
+    &__sam
+      height: 570px
+@media screen and (max-width: 1280px) and (max-height: 690px)
+  .reg
+    &__header,
+    &__gift1,
+    &__gift2
+      transform: scale(0.9)
+@media screen and (max-width: 1280px) and (max-height: 650px)
+  .reg
+    &__sam
+      height: 520px
+@media screen and (max-width: 1280px) and (max-height: 620px)
+  .reg
+    &__gift1
+      top: 10%
+    &__fc
+      margin-top: -10px
+@media screen and (max-width: 1280px) and (max-height: 590px)
+  .reg
+    &__header,
+    &__gift1,
+    &__gift2
+      transform: scale(0.8)
 @media screen and (max-width: 1259px) and (max-height: 1032px)
 @media screen and (max-width: 1210px) and (max-height: 760px)
 @media screen and (max-width: 1210px) and (max-height: 730px)
@@ -279,12 +417,111 @@
 @media screen and (max-width: 1120px) and (max-height: 834px)
 @media screen and (max-width: 1120px) and (max-height: 764px)
 @media screen and (max-width: 1120px) and (max-height: 730px)
+@media screen and (max-width: 1112px) and (max-height: 764px)
+  .reg
+    &__gift1
+      right: -100px
 @media screen and (max-width: 1080px) and (max-height: 707px)
+  .reg
+    &__header,
+    &__gift1,
+    &__gift2,
+    &__gift3
+      transform: scale(0.9)
 @media screen and (max-width: 1032px) and (max-height: 1302px)
+  .reg
+    &__header,
+    &__gift1,
+    &__gift2
+      transform: scale(1.3)
+    &__gift1
+      top: 25%
+    &__gift2
+      top: 46%
+    &__gift3
+      display: none
+    &__sam
+      height: 790px
 @media screen and (max-width: 1032px) and (max-height: 1257px)
+  .reg
+    &__gift1
+      right: -20px
+    &__gift2
+      top: 42%
 @media screen and (max-width: 1024px)
+  .reg
+    &::before
+      height: 55%
+    &__header,
+    &__gift1,
+    &__gift2,
+    &__gift3
+      transform: scale(1)
+    &__logo
+      width: 300px
+      height: 46px
+    &__gift1
+      width: 232px
+      height: 219px
+      top: 27%
+      right: -66px
+    &__gift2
+      width: 222px
+      height: 165px
+      left: -5px
+      top: 39%
+    &__gift3
+      display: block
+      width: 251px
+      height: 215px
+      bottom: -36px
+      left: -49px
+    &__header
+      top: 15px
+    &__sam
+      height: 520px
+      left: 58%
+      aspect-ratio: 1137/520
+    &__footer
+      font-size: 7.35px
+      bottom: 5px
 @media screen and (max-width: 1024px) and (max-height: 1368px)
+  .reg
+    &__header,
+    &__gift1,
+    &__gift2
+      transform: scale(1.3)
+    &__gift1
+      top: 27%
+    &__gift2
+      top: 39%
+    &__gift3
+      display: none
+    &__sam
+      height: 790px
 @media screen and (max-width: 1024px) and (max-height: 1292px)
 @media screen and (max-width: 1024px) and (max-height: 770px)
-@media screen and (max-width: 1024px) and (max-height: 690px)
+  .reg
+    &__header,
+    &__gift1,
+    &__gift2
+      transform: scale(1)
+    &__gift1
+      top: 25%
+    &__gift2
+      top: 37%
+      left: -20px
+    &__gift3
+      display: block
+    &__sam
+      height: 520px
+@media screen and (max-width: 1024px) and (max-height: 670px)
+  .reg
+    &__header,
+    &__gift1,
+    &__gift2,
+    &__gift3
+      transform: scale(0.9)
+    &__gift1
+      top: 21%
 @media screen and (max-width: 1024px) and (max-height: 630px)
