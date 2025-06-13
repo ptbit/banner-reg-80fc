@@ -42,6 +42,14 @@ $font-favbet-bold: FavbetDisplay-Bold, sans-serif
     background: url("../img/bg-640.jpg") no-repeat 50% 50%/cover
   @media screen and (max-width: 1260px)
     background: url("../img/bg-512.jpg") no-repeat 50% 50%/cover
+  &::before
+    content: ''
+    position: absolute
+    height: 510px
+    left: 0
+    right: 0
+    opacity: 0.9
+    background: linear-gradient(0deg, rgba(9, 4, 44, 0.00) 0%, #09042C 100%)
   &::after
     content: ''
     position: absolute
@@ -56,8 +64,8 @@ $font-favbet-bold: FavbetDisplay-Bold, sans-serif
     position: absolute
     top: 18%
     right: -100px
-    width: 479.152px
-    height: 452.388px
+    width: 479px
+    height: 452px
   &__gift2
     position: absolute
     left: 0
